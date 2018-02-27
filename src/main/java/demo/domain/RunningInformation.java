@@ -23,7 +23,6 @@ public class RunningInformation {
 
     @Embedded
     private final UserInfo userInfo;
-
     private String runningId;
 
     private double longitude;

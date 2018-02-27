@@ -10,12 +10,13 @@ import javax.persistence.Embeddable;
 @Data
 @Embeddable
 //for final variables
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserInfo {
 
     private String username;
     private String address;
+
 
     public UserInfo(
             @JsonProperty("username") String username,

@@ -13,7 +13,7 @@ public interface RunningInformationRepository extends JpaRepository<RunningInfor
     );
 
     Page<RunningInformation> findByHeartRate(
-            @Param("heartRate") int hearRate,
+            @Param("heartRate") int heartRate,
             Pageable pageable
     );
 }
